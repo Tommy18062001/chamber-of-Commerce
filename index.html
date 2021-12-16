@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Chamber Of Commerce</h1>
+      <nav>
+        <button onclick="toggleMenu()" class="hamburger">&#9776;</button>
+        <ul class="navbar hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="city.html">City</a></li>
+          <li><a href="directory.html">Business</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- banner message -->
+      <div class="banner">
+        <picture>
+          <img src="images/toamasina.jpg" alt="banner image" />
+        </picture>
+        <section>
+          <h2>Welcome to Toamasina</h2>
+          <p>Chamber of Commerce</p>
+          <button onclick="location.href='join.html'">Join Now</button>
+        </section>
+      </div>
+
+      <!-- Weather information -->
+      <h1 class="headings">Weather</h1>
+      <div class="weather">
+        <div class="current-weather">
+          <p><b>Temperature: </b> <span id="temp"></span></p>
+          <p><b>Feels like: </b> <span id="feels_like"></span></p>
+          <p><b>Humidity: </b> <span id="humidity"></span>%</p>
+          <p><b>Wind speed: </b> <span id="speed"></span></p>
+          <p><b>Wind chill: </b> <span id="windChill"></span></p>
+          <p><b>Description: </b> <span id="description"></span></p>
+        </div>
+
+        <div class="weather-forecast">
+          <!-- This will added using javascript -->
+        </div>
+      </div>
+
+      <!-- Contain the main options of the site -->
+      <h1 class="headings">What We Do</h1>
+      <div class="mission">
+        <article>
+          <h2>Mission</h2>
+          <p>
+            Our goal is to strengthen the relationship between businesses
+            organization and together create a wonderful future. You can learn
+            many things from us. But also, see how amazing is our city,
+            Toamasina, Madagascar.
+          </p>
+        </article>
+        <picture>
+          <img src="images/city.jpg" alt="city image" />
+        </picture>
+      </div>
+
+      <!-- Plan -->
+      <h1 class="headings">Plan Ahead</h1>
+      <div class="plan">
+        <div class="plan-options">
+          <picture>
+            <img src="images/stay.jpg" alt="where to stay" />
+          </picture>
+          <div class="description">
+            <h2>Where to stay</h2>
+            <p>Find your home among all the extraordinary places in our city</p>
+          </div>
+        </div>
+        <div class="plan-options">
+          <picture>
+            <img src="images/eat.jpg" alt="where to eat" />
+          </picture>
+          <div class="description">
+            <h2>Where to eat</h2>
+            <p>Visit the best restaurant in the world</p>
+          </div>
+        </div>
+        <div class="plan-options">
+          <picture>
+            <img src="images/city.jpg" alt="where to shop" />
+          </picture>
+          <div class="description">
+            <h2>Where to shop</h2>
+            <p>Explore our Art and creativity</p>
+          </div>
+        </div>
+        <div class="plan-options">
+          <picture>
+            <img src="images/do.jpg" alt="what to do" />
+          </picture>
+          <div class="description">
+            <h2>What to do</h2>
+            <p>Spend your time in your favorite place and try our hobbies.</p>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="headings">Events</h1>
+      <div class="events">
+        <div class="event-options">
+          <img
+            src="https://scontent.ftnr2-1.fna.fbcdn.net/v/t39.30808-6/p526x395/264419804_1258324008010954_4500241082290335880_n.jpg?_nc_cat=106&cb=c578a115-1d1e314d&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGcmNyHBLRllrCOMTe6IXtTUmUkNL4KeBlSZSQ0vgp4GYMwawPl8hDn-eNzRsmwDh6yFaXOzHEYoNZo4yk0a0Kk&_nc_ohc=jlzm_j3wJP0AX91mPbB&_nc_ht=scontent.ftnr2-1.fna&oh=00_AT94j-vNmfgQyXOWh3Yo-IGcggGaciVdOhbJ7SmTCgBPyQ&oe=61C09C64"
+            alt="marina beach picture"
+          />
+          <div class="description">
+            <h2>Marina Beach Event</h2>
+            <p>
+              Do you have anything planned yet. In any case, Marina Beach Hôtel
+              Tamatave has a festive New Year's Eve evening in store for you!
+              🌟🥂
+            </p>
+          </div>
+        </div>
+        <div class="event-options">
+          <img
+            src="https://scontent.ftnr2-1.fna.fbcdn.net/v/t39.30808-6/s600x600/265195744_4649548775100189_271180326907032516_n.jpg?_nc_cat=103&cb=c578a115-1d1e314d&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeF0UZNc2bqECYAVuIabtFOKewXYGjTD-nl7BdgaNMP6eQqCBsWLbesx_sLrGQYAKkNYdbPReLs8ITMPKNQ13dXf&_nc_ohc=YjNiyNa750cAX_S0ISA&_nc_ht=scontent.ftnr2-1.fna&oh=00_AT85cNLQAOG5Uwh4jDUf_IFEYuOttKhmZCY7K7BR4WBoLg&oe=61C0952B"
+            alt="cosmos picture"
+          />
+          <div class="description">
+            <h2>Celebrate with Cosmos</h2>
+            <p>
+              The holidays look promising this year! 🎀 From December 8, 2021 to
+              January 10, 2022, find the gifts of your dreams among our
+              discounted items, up to -50% 🎁
+            </p>
+          </div>
+        </div>
+        <div class="event-options">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXAVVXVcOGfauWIIMdZfxUDiq-49JCF35YoA&usqp=CAU"
+            alt="Neptune picture"
+          />
+          <div class="description">
+            <h2>Neptune's Eve</h2>
+            <p>
+              🔥🔥🔥 This year it will be a trip to Mykonos 🏺🏛 All New Years
+              Eve will be outside under an open sky tent 🤩 To your reservations
+              !!! Let's go!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="headings">News</h1>
+      <div class="news">
+        <div class="slides">
+          <div class="slide first">
+            <img
+              src="https://scontent.ftnr2-1.fna.fbcdn.net/v/t39.30808-6/s720x720/263166830_4539644292782764_897485366670952721_n.jpg?_nc_cat=105&cb=c578a115-1d1e314d&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFGsvBcB6IhSRk_Zs0IZRIBUQpAADrEKNFRCkAAOsQo0RaGiR6GLlKkvYj35kRtniIc03mqaqAha8FX5axDRYbr&_nc_ohc=5s46uMwU490AX_9J_-L&_nc_ht=scontent.ftnr2-1.fna&oh=00_AT-VXfBZImd1vSBYMpDyr1fjUeD5vvsV5R-fKytwnHR0_A&oe=61C0BF50"
+              alt="gastro pizza"
+            />
+            <section>
+              <h2>New Glace</h2>
+              <p>
+                This new BE product has been passed by professional tasters, and
+                it was felt that it deserves to be given a special name as
+                PEPITECROCK, it can compete well with the taste_of #glace from
+                abroad, and we are already very sorry. It is mostly made with
+                Malagasy ingredients.
+              </p>
+            </section>
+          </div>
+          <div class="slide">
+            <img
+              src="https://scontent.ftnr2-1.fna.fbcdn.net/v/t39.30808-6/p600x600/267449189_4686423278084143_6474810195064999586_n.jpg?_nc_cat=105&cb=c578a115-1d1e314d&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFBWwouq96BY8edf87OZV6QJlDr1r8Aa5wmUOvWvwBrnLZzjSNGR-C9CJPQ-CrRo1PrkAsvaVKXj6LHIC5SGVQ0&_nc_ohc=Su54yGEoBsoAX_14nMw&_nc_ht=scontent.ftnr2-1.fna&oh=00_AT8Ld3CPzb_IJvn0Td3hfpaYHlPF3oAGhg_QR6UdjSOfiQ&oe=61BF8904"
+              alt="sgs picture"
+            />
+            <section>
+              <h2>SGS</h2>
+              <p>
+                Recently, the Portuguese Minister of Agriculture, Maria do Céu
+                Antunes, visited our new laboratory in Lisbon, allowing us to
+                demonstrate our innovative #agricultural solutions!
+              </p>
+            </section>
+          </div>
+          <div class="slide">
+            <img
+              src="https://scontent.ftnr2-1.fna.fbcdn.net/v/t1.18169-9/247753_481336555218188_689504735_n.jpg?_nc_cat=105&cb=c578a115-1d1e314d&ccb=1-5&_nc_sid=2c4854&_nc_eui2=AeHN4Mp8Nn4lqWdxsAYkrso-Lpse6XSTFnEumx7pdJMWcRptKfiTxDJY9UMagiDkI51UEGLFK89KDkkKPnBukas3&_nc_ohc=3f9oR9FlorwAX8c9D4y&_nc_ht=scontent.ftnr2-1.fna&oh=00_AT_QvZ98zIuH3jXwAgJrYMfyzgyBsmA1OHqbI_cs504Keg&oe=61E07DC6"
+              alt="webhelp picture"
+            />
+            <section>
+              <h2>Recruitment continues at Webhelp</h2>
+              <p>
+                Apply online and get a phone interview 📞 ☎ We are currently
+                looking for profiles of client advisers fluent in various
+                languages ​​🇫🇷 🇬🇧 🇮🇹 🇩🇪 🇪🇸 🇨🇳 If you have a business appetite 🎧
+                and you are comfortable with languages ​​🗣, quickly join our
+                #GameChangers team by sending your application via one of the
+                following links
+              </p>
+            </section>
+          </div>
+          <div class="slide">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="calipso picture"
+            />
+            <section>
+              <h2>Calispo</h2>
+              <p>
+                We have installed new machines in the gym at Calypso Hotel &
+                Spa. Our coaches will be happy to assist you in your sessions!
+                See you soon to get back in shape before the holidays
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="slide-btn">
+        <div style="display: none" id="slide-value">0</div>
+        <button onclick="move(-1)">&leftarrow;</button>
+        <button onclick="move(1)">&rightarrow;</button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact-us">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="city.html">Learn more about the city</a></li>
+          <li><a href="directory.html">Explore our businesses</a></li>
+          <li><a href="join.html">Join us</a></li>
+        </ul>
+      </div>
+
+      <div class="contact-us">
+        <h2>Contact us</h2>
+        <p>034 08 880 10</p>
+        <p>toamasinachamber@gmail.com</p>
+        <p>Lot 170 Plle 22/31, Tanamborozano</p>
+        <p>Toamasina, Madagascar</p>
+      </div>
+
+      <div class="social-media">
+        <h2>Social Media</h2>
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+        <p>Last Modified: <span id="myDate" ></span> </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/scrollingEvent.js"></script>
+    <script src="js/weatherData.js"></script>
+    <script src="js/windchill.js"></script>
+  </body>
+</html>

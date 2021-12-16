@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="scrolled">
+      <h1>Chamber Of Commerce</h1>
+      <nav>
+        <button onclick="toggleMenu()" class="hamburger">&#9776;</button>
+        <ul class="navbar hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="city.html">City</a></li>
+          <li><a href="directory.html">Business</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="pages-banner">
+        <picture>
+          <img src="images/Toamasina.jpg" alt="banner image" />
+        </picture>
+        <h1>City</h1>
+      </div>
+
+      <div class="city-main">
+        <div class="intro-video">
+          <iframe
+            width="853"
+            height="480"
+            src="https://www.youtube.com/embed/4qMRY9KpBzM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <article>
+            <h2>Introduction Video</h2>
+            <p>
+              Toamasina, meaning "like salt" or "salty", unofficially and in
+              French Tamatave, is the capital of the Atsinanana region on the
+              east coast of Madagascar on the Indian Ocean. The city is the
+              chief seaport of the country, situated 215 km (134 mi) northeast
+              of its capital and biggest city Antananarivo. In 2018 Toamasina
+              had a population of 325,857. (From wikipedia)
+            </p>
+          </article>
+        </div>
+
+        <div class="city-option">
+          <img src="https://media.istockphoto.com/vectors/open-book-with-history-doodles-and-lettering-vector-id1092170968?k=20&m=1092170968&s=612x612&w=0&h=xuN5I9AhwUps398V6UqE1HL84Dcb4AheOPu9NeKJcrE=" alt="history picture" />
+          <article>
+            <h2>History</h2>
+            <p>
+              Under French rule, Toamasina was the seat of several foreign
+              consuls, as well as of numerous French officials, and was the
+              chief port for the capital and the interior. Imports consisted
+              principally of piece-goods, farinaceous foods, and iron and steel
+              goods; main exports were gold dust, raffia, hides, caoutchouc
+              (rubber) and live animals. During the colonial period, owing to
+              the character of the soil and the formerly crowded native
+              population, the town was often plagued by epidemics: the plague
+              broke out in 1898, and again in 1900; but since the draining of
+              the neighboring marshes, there was an improvement. After 1895, the
+              native population was removed from the town and settled in a new
+              village to the north-west
+            </p>
+          </article>
+        </div>
+
+        <div class="city-option reversed">
+          <img src="https://www.actutana.com/wp-content/uploads/2021/04/20210406_012220.jpg" alt="Demographic picture" />
+          <article>
+            <h2>Demographic</h2>
+            <p>
+              Toamasina is a cosmopolitan city, mainly populated by the
+              betsimisaraka. In addition to the other ethnic groups on the
+              island, it is also home to a very large Chinese (most often
+              mixed), Indo-Pakistani community, as well as a European minority.
+              With a population of over 200,000 inhabitants (2005 estimates), it
+              is the second largest agglomeration in Madagascar, behind
+              Antananarivo the capital, but ahead of Antsirabe and Fianarantsoa.
+            </p>
+          </article>
+        </div>
+
+        <div class="city-option">
+          <img src="data:image/jpeg;base64,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" alt="climate madagascar" />
+          <article>
+            <h2>Climate</h2>
+            <p>
+              Toamasina features a trade-wind tropical rainforest climate under
+              the Köppen climate classification. While Toamasina has no true dry
+              season month where less than 60 millimetres (2.4 inches) of
+              precipitation (on average) falls, the seaport has noticeably
+              wetter and drier periods of the year. September–November is the
+              driest period of the year, while February–April is the wettest
+              time of the year. Average temperatures are relatively constant
+              throughout the course of the year, though it is slightly cooler in
+              the months of July and August, where average highs are around 24
+              °C (75 °F), and warmer in the months of January and February,
+              where high temperatures on average are 30 °C (86 °F). Toamasina
+              averages roughly 3,368.2 millimetres (132.61 inches) of
+              precipitation annually.
+            </p>
+          </article>
+        </div>
+        <div class="city-option reversed">
+          <img src="https://madagascar-tourisme.com/wp-content/uploads/2017/07/35643729871_00cfc96f5b_k.jpg" alt="Tomasina beach" />
+          <article>
+            <h2>TOAMASINA, THE MULTI-FACETTED CITY</h2>
+            <p>
+              Keeping vestiges from before
+              independence, Tamatave has many must-see tourist sites. The old
+              Tamatave, the Place Bien Aimé, the port of Tamatave or the north
+              coast and its idyllic beaches are all places to explore in this
+              colorful city. You will enjoy these varied decorations, aboard a
+              rickshaw, a quad or even lying under a parasol.
+            </p>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact-us">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="city.html">Learn more about the city</a></li>
+          <li><a href="directory.html">Explore our businesses</a></li>
+          <li><a href="join.html">Join us</a></li>
+        </ul>
+      </div>
+
+      <div class="contact-us">
+        <h2>Contact us</h2>
+        <p>034 08 880 10</p>
+        <p>toamasinachamber@gmail.com</p>
+        <p>Lot 170 Plle 22/31, Tanamborozano</p>
+        <p>Toamasina, Madagascar</p>
+      </div>
+
+      <div class="social-media">
+        <h2>Social Media</h2>
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+        <p>Last Modified: <span id="myDate" ></span> </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/scrollingEvent.js"></script>
+  </body>
+</html>

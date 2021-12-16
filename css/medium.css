@@ -1,0 +1,150 @@
+@media only screen and (min-width: 760px) {
+
+    main .events {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-main form.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;}
+
+    .contact-us label.comment {
+      grid-column: 1/3;
+      width: 90%;
+  }
+
+  .contact-us .btn {
+    grid-column: 1/3;
+  }
+
+  /* View option */
+  .directory-main .view-option {display: block;}
+
+  .view-option ul {
+    display: flex;
+}
+
+.view-option ul li {
+    width: 100px;
+    padding: 10px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.281);
+    margin-right: 15px;
+    border-radius: 5px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.view-option ul li.active {
+    color: white;
+    background-color: #084863;
+}
+
+ /*------------------------Weather forecast-------------------------*/
+ main .weather {
+   flex-direction: row;
+ }
+main .weather-forecast {
+  grid-template-columns: 1fr;
+}
+
+ /*------------------------GRID or LIST VIEW-------------------------*/
+
+ .businesses.grid-view {
+  grid-template-columns: 1fr 1fr;
+}
+
+.businesses.list-view {
+  grid-template-columns: 1fr;
+}
+
+.businesses.list-view .element {
+    max-width: 100%;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.businesses.list-view .element img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.businesses.list-view .element button {
+  margin-right: 50px;
+  border-radius: 5px;
+}
+
+.businesses.list-view .element section h2 {
+  margin: 10px auto;
+}
+
+.businesses.list-view .element section {width: 75%;}
+
+
+/* ---------------------------------MEMBERSHIP LEVEL-------------------------------------------- */
+
+table {
+	margin: 100px auto;
+	border-collapse: collapse;
+  color: black;
+  width: 90%;
+  border-radius: 10px;
+  display: block;
+}
+
+thead  th {
+    color: white;
+    background-color: #084863;
+}
+
+thead tr:nth-child(1) th {font-size: 1.4rem;}
+
+
+th, td {
+	padding: 10px 20px;
+	border: 1px solid #878b8d;
+}
+
+th {
+	background-color:  #628ca6;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(5) td:first-child {
+    font-style: italic;
+}
+
+
+th.first-col {
+    width: 40%;
+    font-size: 1rem;
+    font-weight: 100;
+    background-color: #e7f0ed;
+    color: black;
+}
+
+thead th.first-col {
+    border: none;
+    background-color: transparent;
+}
+
+.fa-check {
+    color: rgb(26, 201, 26);
+}
+.fa-times {
+    color: rgb(233, 55, 55);
+}
+
+
+}
